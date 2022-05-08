@@ -1,0 +1,56 @@
+* {
+  margin: 1px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+    position: absolute;
+    left: 300px;
+}
+
+.hh {
+  display: flex;
+}
+.row {
+  border: 2px solid black;
+  display: flex;
+  padding: 2px;
+  width: 50%;
+}
+.col p {
+  font-size: 30px;
+}
+.col {
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 100px;
+  height: 100%;
+}
+h1::first-letter {
+  font-size: 3rem;
+  color: #0571f8;
+
+}
+.sp::first-letter {
+  font-size: 3rem;
+  color: #0571f8;
+}
+
+.container{
+    display: flex;
+    padding: 4px;
+    width: 50%;
+    justify-content: space-between;
+}
+.container .img1{
+    width: 25%;
+}
+.container .img2{
+    width: 25%;
+}
+.container .img1 .img11{
+    width: 440px;
+}
+.container img{
+    width: 400px;
+}
